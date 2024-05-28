@@ -23,4 +23,5 @@ def test_homepage_content(client):
 
 @pytest.mark.django_db(transaction=True)
 def test_about_page_content(client):
-    pass  # Your test goes here.
+    url = reverse("about")
+    pass  # Your test goes here. The URL defined above is the correct one for calling the About page.
