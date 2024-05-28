@@ -18,8 +18,8 @@ We would like to ask you to do three things.
 
 Please submit the following things (by email) to Bart de Koning (dekoning@cornell.edu):
 - A screenshot of the homepage
-- The contents of the templates/home.html file
-- The contents of the pages/tests.py file
+- The contents of the `templates/home.html` file
+- The contents of the `pages/tests.py` file
 
 
 ## Running the project<a name="runningproject"></a>
