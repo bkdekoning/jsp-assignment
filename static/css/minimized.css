@@ -1,0 +1,370 @@
+h1.header-title {
+    font-size: 24pt;
+    font-weight: 700
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    transition: text-decoration .3s ease, color .3s ease;
+    color: #000;
+    padding: 8px 12px;
+    display: inline-block
+}
+
+.main-menu ul li a:hover {
+    text-decoration: underline;
+    color: #000
+}
+
+.main-menu-align-right {
+    float: right
+}
+
+.nav-item {
+    text-decoration: none;
+    transition: text-decoration .3s ease;
+    color: #000;
+    padding: 8px 12px;
+    display: inline-block
+}
+
+.nav-item:hover {
+    text-decoration: underline
+}
+
+.top-header {
+    position: relative;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999
+}
+
+.main-header {
+    position: relative;
+    background-color: #fff;
+    -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
+    left: 0;
+    top: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    width: 100%;
+    z-index: 999
+}
+
+.img-res {
+    width: 40%;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px
+}
+
+.bg-image {
+    background: url(/static/images/mtn.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 80px 0;
+    position: relative;
+    height: 350px
+}
+
+.bg-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .4);
+    z-index: 0
+}
+
+.search-box {
+    width: 80%;
+    margin: auto
+}
+
+.alert {
+    color: red;
+    text-align: left;
+    width: max-content;
+    margin: auto
+}
+
+.text-light {
+    text-align: center
+}
+
+.container>* {
+    position: relative;
+    z-index: 1
+}
+
+.text-light {
+    color: #fff
+}
+
+.search-btn {
+    background-color: #fff;
+    color: #000;
+    border: none
+}
+
+.search-btn:hover {
+    background-color: #ddd;
+    color: #000
+}
+
+.team-section {
+    margin-top: 50px
+}
+
+.team-member {
+    margin-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex
+}
+
+.team-member .img-container {
+    padding-bottom: 30%;
+    position: relative;
+    width: 30%
+}
+
+.team-img {
+    border-radius: 50%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    width: 100%
+}
+
+.team-text {
+    width: calc(70% - 10px);
+    background-color: rgba(255, 255, 255, .7);
+    padding: 10px
+}
+
+.left {
+    float: left;
+    margin-right: 10px
+}
+
+.right {
+    float: right;
+    margin-left: 10px
+}
+
+.info-box p {
+    margin-bottom: 10px
+}
+
+.info-box strong {
+    font-weight: 700;
+    color: #f44336
+}
+
+.location-warning {
+    display: none;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(255, 0, 0, .5);
+    border: 1px solid #000;
+    padding: 5px;
+    margin-top: 5px
+}
+
+.slider-input {
+    display: block;
+    position: relative;
+    width: 50%;
+    margin-top: 10px
+}
+
+.slider-tooltip {
+    position: relative;
+    top: -2%;
+    transform: translateX(-50%);
+    font-size: 1.2em;
+    display: none
+}
+
+.seniority-table-container {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin: 20px;
+    width: auto
+}
+
+.seniority-table-row {
+    display: table-row
+}
+
+.seniority-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f9f9f9
+}
+
+.seniority-button {
+    background-color: #f3f3f3;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color .2s, transform .1s
+}
+
+.seniority-button-noreact {
+    background-color: #f3f3f3;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    transition: background-color .2s, transform .1s;
+    text-align: right
+}
+
+.seniority-button:hover {
+    background-color: #e6e6e6;
+    transform: scale(1.05)
+}
+
+.survey-input-label {
+    display: inline-block;
+    margin-right: 5px
+}
+
+.survey-input-label input[type=number] {
+    width: auto
+}
+
+.selected-cell {
+    background-color: rgba(0, 128, 0, .5)
+}
+
+.seniority-label {
+    font-weight: 700;
+    color: #555;
+    text-align: left;
+    background-color: transparent
+}
+
+.wage-level-title {
+    text-align: center;
+    font-weight: 700;
+    background-color: #f5f5f5;
+    padding: 10px 0
+}
+
+.seniority-title {
+    background-color: #f5f5f5;
+    padding: 0 10px
+}
+
+.seniority-outer-container {
+    position: relative;
+    margin-left: 50px
+}
+
+.seniority-vertical-label {
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    transform: translateY(-50%) rotate(-90deg);
+    transform-origin: center;
+    font-size: 18pt;
+    font-weight: 700;
+    background-color: transparent
+}
+
+.wage-level-title {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+    font-size: 18pt;
+    background-color: transparent;
+    padding: 0 10px
+}
+
+.grayed-out {
+    color: gray;
+    font-size: .8rem
+}
+
+.img-cornell-ilr {
+    height: 100px;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 2px
+}
+
+.vertical-space {
+    padding-top: 5px;
+    margin-bottom: 5px
+}
+
+.vertical-line {
+    width: 1px;
+    height: 100px;
+    background-color: #000;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+.img-icon-small {
+    height: 25px;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 2px
+}
+
+.img-icon-beliefs {
+    height: 35px;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 2px
+}
+
+.image-with-text {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.image-with-text img {
+    display: block;
+    height: 35px;
+    max-width: auto
+}
+
+.information-treatment-text {
+    font-size: 24pt;
+    font-weight: 700;
+    vertical-align: middle
+}
+
+.footer-style {
+    font-family: Replica, sans-serif;
+    color: #333;
+    font-weight: 700;
+    margin-top: 0;
+    line-height: 1.2;
+    font-size: 16px
+}

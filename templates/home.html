@@ -1,0 +1,36 @@
+{% extends "_base.html" %}
+{% load static %}
+{% block title %}Home{% endblock title %}
+{% block content %}
+<!-- Search window-->
+<div class="container bg-image">
+    <h1 class="text-light">This Should Not Be Here!</h1>
+</div>
+<!-- Platform explanation-->
+<div class="container" role="main">
+    <div class="row">
+        <div class="col-md-6">
+            <p></p>
+            <div style="position: relative; width: 100%; padding-top: 56.25%;"> <!-- 16:9 Aspect Ratio -->
+                <iframe src="https://www.youtube.com/embed/R_2KNwd6Sos" title="YouTube video player" style=" width: 100%; height: 100%; position: absolute; top: 0; left: 0;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h1>Welcome!</h1>
+            <span style="font-size:14pt;">
+                <p>On this platform, you can</p>
+                <ul>
+                    <li><i class="fas fa-check" style="color:green;"></i> Browse over <strong>55,000 real job postings</strong> in New York State</li>
+                    <li><i class="fas fa-check" style="color:green;"></i> Find <strong>vacancy summaries</strong> to quickly identify relevant jobs</li>
+                    <li><i class="fas fa-check" style="color:green;"></i> Receive up to $90 in reward cards for searching and answering surveys</li>
+                </ul>
+            </span>
+            <p></p>
+            <a href="#"><button class="btn btn-primary"><span style="font-size:16pt;">Sign up now!</span></button></a>
+        </div>
+    </div>
+</div>
+
+<div class="vertical-space"></div>
+
+{% endblock content %}
