@@ -1,7 +1,7 @@
 # Student Computer Assistant Assignment
 Thank you for applying to the student computer assistant position. In lieu of a first-round interview, we would like to ask you to complete a short task to assess your ability to assist us on the project. This task involves setting up a sample project locally, making minor changes to the codebase, and writing a test. You will be working on a basic version (i.e., only two pages) of our job search platform. The tech stack is Django (a Python web framework), PostgreSQL, Bootstrap, and Docker. 
 
-The assignment should take you no more than half an hour to complete. Please see below for a detailed task description.
+The assignment should take you no more than an hour to complete. Please see below for a detailed task description.
 
 ## Assignment
 We would like to ask you to do three things.
