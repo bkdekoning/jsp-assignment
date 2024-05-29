@@ -23,7 +23,7 @@ Please submit the following things (by email) to Bart de Koning (dekoning@cornel
 
 
 ## Running the project<a name="runningproject"></a>
-To run the project locally, you will need to have Git (see [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)) and Docker desktop installed (see [https://docs.docker.com/desktop/install/windows-install/](https://docs.docker.com/desktop/install/windows-install/)). If you are running windows, you will also need to have WSL2 installed (see [https://learn.microsoft.com/en-us/windows/wsl/install](https://learn.microsoft.com/en-us/windows/wsl/install)). To run the project for the first time, run the commands below through your command line interface.
+To run the project locally, you will need to have Git (see [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git){:target="_blank"}) and Docker desktop installed (see [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/){:target="_blank"}). If you are running windows, you will also need to have WSL2 installed (see [https://learn.microsoft.com/en-us/windows/wsl/install](https://learn.microsoft.com/en-us/windows/wsl/install){:target="_blank"}). To run the project for the first time, run the commands below through your command line interface.
 
 1. Copy project from GitHub and navigate into the directory
     - ```git clone https://github.com/bkdekoning/jsp-assignment```

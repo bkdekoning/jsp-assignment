@@ -33,4 +33,4 @@ RUN chmod +x /code/entrypoint.sh
 USER appuser
 
 # Run entrypoint.sh (Assumes it starts gunicorn or another WSGI server)
-ENTRYPOINT ["/code/entrypoint.sh"]
+ENTRYPOINT ["/bin/sh", "/code/entrypoint.sh"]
