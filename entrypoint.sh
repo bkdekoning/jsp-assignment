@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Determine if running in development or production
 if [ "$DJANGO_LOCAL" = "True" ]; then
